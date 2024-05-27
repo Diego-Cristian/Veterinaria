@@ -1,0 +1,34 @@
+  <!-- Modal -->
+  <div class="modal fade" id="modalLogin" tabindex="-1" aria-labelledby="modalLoginLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modalLoginLabel">Inicio de sesión</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <form action="login.php" method="POST">
+          <div class="modal-body">
+            
+              <div class="row">
+                <div class="col-md-8">
+                  <label for="">Email</label>
+                  <input name="email" class="form-control" type="text" required>
+                </div>
+                <div class="col-md-4">
+                  <a href="registro.php" class="btn btn-info">Registro</a>
+                </div>
+                <div class="col-md-8">
+                  <label for="">Password</label>
+                  <input name="password" class="form-control" type="password" required>
+                </div>
+              </div>
+            
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            <button type="submit" class="btn btn-primary">Loguear</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
