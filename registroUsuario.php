@@ -23,10 +23,8 @@
     $usuario->password = $password;
     $usuario->rol_id = 4;  // Rol Cliente
 
-    $usuario->guardar();
-    
+    $usuario->guardar();   
 
     require_once('partes/modalLogin.html');
     require_once('partes/footer.html');
-
 ?>

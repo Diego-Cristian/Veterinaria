@@ -28,8 +28,6 @@
                 Usuario o Contraseña incorrectos
             </div>";
     }
-
     require_once('partes/modalLogin.html');
     require_once('partes/footer.html');
-
 ?>
